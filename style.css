@@ -1,0 +1,130 @@
+body{
+    margin: 0px;
+    background-color: #FFF19B;
+}
+html{
+    scroll-behavior: smooth;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    height: 40px;
+    position: fixed;
+    width: 100%;
+    background-color: #FF9644;
+    color: #FF5A5A;
+}
+section.home{
+    height: 800px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image:url("bg4.png.png");
+}
+section.project{
+    height: 800px;
+    text-align: center;
+}
+section.howto{
+    height: 800px;
+    text-align: center;
+}
+section.profile{
+    height: 800px;
+    text-align: center;
+}
+.kotakBiotek{
+    width: 40%;
+    margin-left: 50px;
+    padding-top: 100px;
+}
+.BioteknologiKimchi{
+    font-size: 50px;
+}
+.deskBiotek{
+    color: #F7F6E5;
+    font-size: 22px;
+    font-family: 'Dokdo';
+}
+section.project img{
+    height: 200px;
+}
+.deskProject{
+    width: 60%;
+    margin: auto;
+    padding: 50px 20px;
+}
+section.howto{
+    height: 1500px;
+    padding-top: 100px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.howto img{
+    height: 300px;
+    margin: 20px;
+}
+.deskhowto{
+    width: 60%;
+    margin: auto;
+    background-color: rgb(255, 217, 122);
+    border-radius: 20px;
+    padding: 10px 50px;
+}
+.dokumentasi{
+    margin: 20px;
+}
+.cardProfile{
+    background-color:#FFA95A;
+    padding: 15px;
+    width: 300px;
+    margin: auto;
+    text-align: center;
+}
+.imgProfile img{
+    width: 100%
+}
+.medsos{
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    height: 40px;
+    padding-top: 5px
+}
+.medsos a{
+    text-decoration: none;
+    padding: 10px 10px;
+    font-size: 24px;
+}
+nav a{
+    font-family: 'BBH Bogle';
+    background-color: #FFA95A;
+    border-radius: 20px 20px 20px 20px;
+    padding: 5px 15px;
+    color:#FFF19B;
+    text-decoration: none;
+    transition: 1s;
+    font-size: larger;
+}
+nav a:hover{
+    color: #FFA95A;
+    transition: 1s;
+    border-radius: 20px 20px 20px 20px;
+    padding: 7px 25px;
+    background-color: #FFD786;
+}
+h1{
+    font-family: 'Dokdo';
+    color: #A0D585;
+}
+h3{
+    font-size: larger;
+    font-family: 'Dokdo';
+}
+p{
+    font-size: larger;
+    font-family: 'Dokdo';
+}
