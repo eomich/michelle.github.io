@@ -82,6 +82,7 @@ section.howto{
     width: 300px;
     margin: auto;
     text-align: center;
+    border-radius: 20px 20px 20px 20px;
 }
 .imgProfile img{
     width: 100%
