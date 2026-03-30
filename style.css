@@ -7,13 +7,16 @@ html{
 }
 header{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     text-align: center;
-    height: 40px;
+    height: 70px;
     position: fixed;
+    top: 0;
+    padding: 1px 1px;
     width: 100%;
     background-color: #FF9644;
     color: #FF5A5A;
+    box-sizing: border-box;
 }
 section.home{
     height: 800px;
@@ -31,7 +34,7 @@ section.howto{
     text-align: center;
 }
 section.profile{
-    height: 800px;
+    height: 500px;
     text-align: center;
 }
 .kotakBiotek{
@@ -46,6 +49,7 @@ section.profile{
     color: #F7F6E5;
     font-size: 22px;
     font-family: 'Dokdo';
+    border-radius: 20px;
 }
 section.project img{
     height: 200px;
@@ -54,6 +58,8 @@ section.project img{
     width: 60%;
     margin: auto;
     padding: 50px 20px;
+    border-radius: 20px;
+    background-color: rgb(255, 217, 122);
 }
 section.howto{
     height: 1500px;
@@ -109,6 +115,7 @@ nav a{
     text-decoration: none;
     transition: 1s;
     font-size: larger;
+    text-align: center;
 }
 nav a:hover{
     color: #FFA95A;
@@ -127,5 +134,10 @@ h3{
 }
 p{
     font-size: larger;
-    font-family: 'Dokdo';
+    font-family: 'Bododni Moda';
+}
+.namabiotek{
+    justify-content: center;
+    font-family:'Bodoni Moda SC' ;
+    color: antiquewhite;
 }
